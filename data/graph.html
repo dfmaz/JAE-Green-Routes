@@ -1,0 +1,2083 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d37eae78fe7b495a91c0eb9ff55f72d1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d37eae78fe7b495a91c0eb9ff55f72d1" ></div>
+        
+</body>
+<script>    
+    
+            var map_d37eae78fe7b495a91c0eb9ff55f72d1 = L.map(
+                "map_d37eae78fe7b495a91c0eb9ff55f72d1",
+                {
+                    center: [41.382155151663085, 2.174001132939115],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0b1c39310fe240de94df4d3324a8e8d8 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+            var poly_line_2a701ab8b60a4983b69f72d6ed0d07b3 = L.polyline(
+                [[41.3830196, 2.175276], [41.3829393, 2.1753885]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_649eccf37388472a9610edda5fd8762a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15c99fa27c834691860f80fec3d5d700 = $(`<div id="html_15c99fa27c834691860f80fec3d5d700" style="width: 100.0%; height: 100.0%;">"Carrer de Salom\u00f3 ben Adret"</div>`)[0];
+            popup_649eccf37388472a9610edda5fd8762a.setContent(html_15c99fa27c834691860f80fec3d5d700);
+        
+
+        poly_line_2a701ab8b60a4983b69f72d6ed0d07b3.bindPopup(popup_649eccf37388472a9610edda5fd8762a)
+        ;
+
+        
+    
+    
+            var poly_line_81e5774021b64aa7ae79d6b12a290d9f = L.polyline(
+                [[41.3830196, 2.175276], [41.3830867, 2.1753746]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_f94d875d33b14e379cb5f7f55c397d78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0c158f9642243118cc7d3d59750c1bc = $(`<div id="html_e0c158f9642243118cc7d3d59750c1bc" style="width: 100.0%; height: 100.0%;">"Carrer de Sant Sever"</div>`)[0];
+            popup_f94d875d33b14e379cb5f7f55c397d78.setContent(html_e0c158f9642243118cc7d3d59750c1bc);
+        
+
+        poly_line_81e5774021b64aa7ae79d6b12a290d9f.bindPopup(popup_f94d875d33b14e379cb5f7f55c397d78)
+        ;
+
+        
+    
+    
+            var poly_line_e727969b61494142bec78f26a68d95a4 = L.polyline(
+                [[41.3830196, 2.175276], [41.3828932, 2.1751068], [41.3828861, 2.1750567], [41.3828121, 2.1747968], [41.382769, 2.1746095]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_a1fc76f9fa104e298ef9920df21d0652 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c92c20db66cf474e8b7b57de3385d67e = $(`<div id="html_c92c20db66cf474e8b7b57de3385d67e" style="width: 100.0%; height: 100.0%;">["Baixada de Santa Eul\u00e0lia", "Carrer de Sant Sever"]</div>`)[0];
+            popup_a1fc76f9fa104e298ef9920df21d0652.setContent(html_c92c20db66cf474e8b7b57de3385d67e);
+        
+
+        poly_line_e727969b61494142bec78f26a68d95a4.bindPopup(popup_a1fc76f9fa104e298ef9920df21d0652)
+        ;
+
+        
+    
+    
+            var poly_line_f44293481f604894ba4eddf8ff288152 = L.polyline(
+                [[41.3829393, 2.1753885], [41.3830196, 2.175276]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_b66ef854196046faac72a4bc9cb27f7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c1b4e95dc9a4b24bafe4f55650419bd = $(`<div id="html_2c1b4e95dc9a4b24bafe4f55650419bd" style="width: 100.0%; height: 100.0%;">"Carrer de Salom\u00f3 ben Adret"</div>`)[0];
+            popup_b66ef854196046faac72a4bc9cb27f7a.setContent(html_2c1b4e95dc9a4b24bafe4f55650419bd);
+        
+
+        poly_line_f44293481f604894ba4eddf8ff288152.bindPopup(popup_b66ef854196046faac72a4bc9cb27f7a)
+        ;
+
+        
+    
+    
+            var poly_line_47d1d282d4f542f6bc03d0f9f8260a91 = L.polyline(
+                [[41.3813822, 2.1737648], [41.3814794, 2.1741088]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_c299a43d238f447dbb4cd22369b76be9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d83a3b057d94cbba51e75f1b16c64ab = $(`<div id="html_1d83a3b057d94cbba51e75f1b16c64ab" style="width: 100.0%; height: 100.0%;">"Carrer de la Boqueria"</div>`)[0];
+            popup_c299a43d238f447dbb4cd22369b76be9.setContent(html_1d83a3b057d94cbba51e75f1b16c64ab);
+        
+
+        poly_line_47d1d282d4f542f6bc03d0f9f8260a91.bindPopup(popup_c299a43d238f447dbb4cd22369b76be9)
+        ;
+
+        
+    
+    
+            var poly_line_7a687766735848699ab42fe147019000 = L.polyline(
+                [[41.3813822, 2.1737648], [41.3813182, 2.1735201]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_f8abcdd9c89e4f3d8a8465e27288dbde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa6833a2f9ae4a6897965f48a6b518ab = $(`<div id="html_fa6833a2f9ae4a6897965f48a6b518ab" style="width: 100.0%; height: 100.0%;">"Carrer de la Boqueria"</div>`)[0];
+            popup_f8abcdd9c89e4f3d8a8465e27288dbde.setContent(html_fa6833a2f9ae4a6897965f48a6b518ab);
+        
+
+        poly_line_7a687766735848699ab42fe147019000.bindPopup(popup_f8abcdd9c89e4f3d8a8465e27288dbde)
+        ;
+
+        
+    
+    
+            var poly_line_a9a80c59ebc8495d957f56ad46136901 = L.polyline(
+                [[41.3814794, 2.1741088], [41.381585, 2.1745904]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_05179ab26bea49699df2ee34ea88e281 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07bd38d3f9654631800d5d18a4c47e06 = $(`<div id="html_07bd38d3f9654631800d5d18a4c47e06" style="width: 100.0%; height: 100.0%;">"Carrer de la Boqueria"</div>`)[0];
+            popup_05179ab26bea49699df2ee34ea88e281.setContent(html_07bd38d3f9654631800d5d18a4c47e06);
+        
+
+        poly_line_a9a80c59ebc8495d957f56ad46136901.bindPopup(popup_05179ab26bea49699df2ee34ea88e281)
+        ;
+
+        
+    
+    
+            var poly_line_53394868082a43c08090142a612d1238 = L.polyline(
+                [[41.3814794, 2.1741088], [41.3813822, 2.1737648]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_4e5d2aa175d840c0b6dc28bd40218003 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91e2527423e744abb80c8690e60373a9 = $(`<div id="html_91e2527423e744abb80c8690e60373a9" style="width: 100.0%; height: 100.0%;">"Carrer de la Boqueria"</div>`)[0];
+            popup_4e5d2aa175d840c0b6dc28bd40218003.setContent(html_91e2527423e744abb80c8690e60373a9);
+        
+
+        poly_line_53394868082a43c08090142a612d1238.bindPopup(popup_4e5d2aa175d840c0b6dc28bd40218003)
+        ;
+
+        
+    
+    
+            var poly_line_75b1991785774f9f96e12f17e48653ca = L.polyline(
+                [[41.381585, 2.1745904], [41.3817821, 2.1744832]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_a4572e79df2944dca1cc61efa72e5d11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6a1420ae7354d2daec1a076d84aa7f3 = $(`<div id="html_a6a1420ae7354d2daec1a076d84aa7f3" style="width: 100.0%; height: 100.0%;">"Carrer de n'Alsina"</div>`)[0];
+            popup_a4572e79df2944dca1cc61efa72e5d11.setContent(html_a6a1420ae7354d2daec1a076d84aa7f3);
+        
+
+        poly_line_75b1991785774f9f96e12f17e48653ca.bindPopup(popup_a4572e79df2944dca1cc61efa72e5d11)
+        ;
+
+        
+    
+    
+            var poly_line_f45eb8b8b96d4245b5d10c1c342ae11c = L.polyline(
+                [[41.381585, 2.1745904], [41.3816361, 2.1748315]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_54164642cd084807903b748d6cfa9556 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c07a90232afe4975877326f0f5fce8c1 = $(`<div id="html_c07a90232afe4975877326f0f5fce8c1" style="width: 100.0%; height: 100.0%;">"Carrer de la Boqueria"</div>`)[0];
+            popup_54164642cd084807903b748d6cfa9556.setContent(html_c07a90232afe4975877326f0f5fce8c1);
+        
+
+        poly_line_f45eb8b8b96d4245b5d10c1c342ae11c.bindPopup(popup_54164642cd084807903b748d6cfa9556)
+        ;
+
+        
+    
+    
+            var poly_line_25831041ee8846aaa3e2285584f76d49 = L.polyline(
+                [[41.381585, 2.1745904], [41.3814794, 2.1741088]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_d7832eefe70548d9a30ce89a19befff5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f73326784c94e8c88d6cefb899cf079 = $(`<div id="html_1f73326784c94e8c88d6cefb899cf079" style="width: 100.0%; height: 100.0%;">"Carrer de la Boqueria"</div>`)[0];
+            popup_d7832eefe70548d9a30ce89a19befff5.setContent(html_1f73326784c94e8c88d6cefb899cf079);
+        
+
+        poly_line_25831041ee8846aaa3e2285584f76d49.bindPopup(popup_d7832eefe70548d9a30ce89a19befff5)
+        ;
+
+        
+    
+    
+            var poly_line_852cf04db340422280c85b9460d3d5d3 = L.polyline(
+                [[41.3816361, 2.1748315], [41.3816696, 2.174953]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_54fa9b39c8344248b34c01d96a5fb140 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4e393c0bb8c43dc88e96f04a677faab = $(`<div id="html_f4e393c0bb8c43dc88e96f04a677faab" style="width: 100.0%; height: 100.0%;">"Carrer de la Boqueria"</div>`)[0];
+            popup_54fa9b39c8344248b34c01d96a5fb140.setContent(html_f4e393c0bb8c43dc88e96f04a677faab);
+        
+
+        poly_line_852cf04db340422280c85b9460d3d5d3.bindPopup(popup_54fa9b39c8344248b34c01d96a5fb140)
+        ;
+
+        
+    
+    
+            var poly_line_532c2bf68dd749349de585b5cbba67ba = L.polyline(
+                [[41.3816361, 2.1748315], [41.381585, 2.1745904]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_10ffe7544c3b484e9edaf57e6c1d17c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b4e3e59be1e42f7a0f6fbd6ff4e9a14 = $(`<div id="html_2b4e3e59be1e42f7a0f6fbd6ff4e9a14" style="width: 100.0%; height: 100.0%;">"Carrer de la Boqueria"</div>`)[0];
+            popup_10ffe7544c3b484e9edaf57e6c1d17c9.setContent(html_2b4e3e59be1e42f7a0f6fbd6ff4e9a14);
+        
+
+        poly_line_532c2bf68dd749349de585b5cbba67ba.bindPopup(popup_10ffe7544c3b484e9edaf57e6c1d17c9)
+        ;
+
+        
+    
+    
+            var poly_line_5d46e5e0cd1948659b237800da45522e = L.polyline(
+                [[41.3816361, 2.1748315], [41.3819018, 2.1746943]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_a7af33987b0848afa97b0ac1dd41fd59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_641b9a7e697a49aa80fcaba1bce7bc4a = $(`<div id="html_641b9a7e697a49aa80fcaba1bce7bc4a" style="width: 100.0%; height: 100.0%;">"Carrer dels Cecs de la Boqueria"</div>`)[0];
+            popup_a7af33987b0848afa97b0ac1dd41fd59.setContent(html_641b9a7e697a49aa80fcaba1bce7bc4a);
+        
+
+        poly_line_5d46e5e0cd1948659b237800da45522e.bindPopup(popup_a7af33987b0848afa97b0ac1dd41fd59)
+        ;
+
+        
+    
+    
+            var poly_line_3597368aa9b944e0a4f1a2f86b73c9f5 = L.polyline(
+                [[41.3817523, 2.1752734], [41.3816696, 2.174953]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_800ac423e0914e1fbb43324a766129b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9a6ffccf0de4488a112e4d44dd0f5e5 = $(`<div id="html_e9a6ffccf0de4488a112e4d44dd0f5e5" style="width: 100.0%; height: 100.0%;">"Carrer de la Boqueria"</div>`)[0];
+            popup_800ac423e0914e1fbb43324a766129b5.setContent(html_e9a6ffccf0de4488a112e4d44dd0f5e5);
+        
+
+        poly_line_3597368aa9b944e0a4f1a2f86b73c9f5.bindPopup(popup_800ac423e0914e1fbb43324a766129b5)
+        ;
+
+        
+    
+    
+            var poly_line_a657c22c15ea41f09de51172eaae3257 = L.polyline(
+                [[41.3824053, 2.1734414], [41.3822399, 2.1736612]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_aa1869e8538f469cbd6110829188e0ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59d7aec5cbeb443a8641e2b34c33b937 = $(`<div id="html_59d7aec5cbeb443a8641e2b34c33b937" style="width: 100.0%; height: 100.0%;">"Carrer de Petritxol"</div>`)[0];
+            popup_aa1869e8538f469cbd6110829188e0ef.setContent(html_59d7aec5cbeb443a8641e2b34c33b937);
+        
+
+        poly_line_a657c22c15ea41f09de51172eaae3257.bindPopup(popup_aa1869e8538f469cbd6110829188e0ef)
+        ;
+
+        
+    
+    
+            var poly_line_52b589c2e9b34444aa0ee9a4506e6cd6 = L.polyline(
+                [[41.3824053, 2.1734414], [41.3823894, 2.1737671]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_70d7ad2fbe744a7d8903e46868cb1966 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d14d62492dd44b0095e9b8a201003418 = $(`<div id="html_d14d62492dd44b0095e9b8a201003418" style="width: 100.0%; height: 100.0%;">NaN</div>`)[0];
+            popup_70d7ad2fbe744a7d8903e46868cb1966.setContent(html_d14d62492dd44b0095e9b8a201003418);
+        
+
+        poly_line_52b589c2e9b34444aa0ee9a4506e6cd6.bindPopup(popup_70d7ad2fbe744a7d8903e46868cb1966)
+        ;
+
+        
+    
+    
+            var poly_line_95915d354e5e45dfabdc0e3391e0149c = L.polyline(
+                [[41.3822399, 2.1736612], [41.3824053, 2.1734414]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_de47db2ea0db4759886abf7ebf2088ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74f8bc3d81544ba08af5e658d54e703a = $(`<div id="html_74f8bc3d81544ba08af5e658d54e703a" style="width: 100.0%; height: 100.0%;">"Carrer de Petritxol"</div>`)[0];
+            popup_de47db2ea0db4759886abf7ebf2088ed.setContent(html_74f8bc3d81544ba08af5e658d54e703a);
+        
+
+        poly_line_95915d354e5e45dfabdc0e3391e0149c.bindPopup(popup_de47db2ea0db4759886abf7ebf2088ed)
+        ;
+
+        
+    
+    
+            var poly_line_bd91cef9d3d34520bff0ae4d8f5ef7a6 = L.polyline(
+                [[41.3822399, 2.1736612], [41.3819741, 2.173468]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_8a238d8ce0d5433a89c114f740c5fe0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b30189f34f74abd9256f8c16c3ed0d6 = $(`<div id="html_0b30189f34f74abd9256f8c16c3ed0d6" style="width: 100.0%; height: 100.0%;">"Carrer del Cardenal Casa\u00f1as"</div>`)[0];
+            popup_8a238d8ce0d5433a89c114f740c5fe0c.setContent(html_0b30189f34f74abd9256f8c16c3ed0d6);
+        
+
+        poly_line_bd91cef9d3d34520bff0ae4d8f5ef7a6.bindPopup(popup_8a238d8ce0d5433a89c114f740c5fe0c)
+        ;
+
+        
+    
+    
+            var poly_line_480f45e1573e4496a267c30e65cbc0d4 = L.polyline(
+                [[41.3822399, 2.1736612], [41.3823894, 2.1737671]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_8f96bc20922445feadaa7556e9d835b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8b1a855afe444c1ac6115d9bef845b9 = $(`<div id="html_a8b1a855afe444c1ac6115d9bef845b9" style="width: 100.0%; height: 100.0%;">NaN</div>`)[0];
+            popup_8f96bc20922445feadaa7556e9d835b9.setContent(html_a8b1a855afe444c1ac6115d9bef845b9);
+        
+
+        poly_line_480f45e1573e4496a267c30e65cbc0d4.bindPopup(popup_8f96bc20922445feadaa7556e9d835b9)
+        ;
+
+        
+    
+    
+            var poly_line_88d36bba8a6147da9956ca70374be051 = L.polyline(
+                [[41.3819741, 2.173468], [41.3818517, 2.173416]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_be7a0ba2ccc74ed8ae991be7cecfd278 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7659376e4c8f410b81b2b6abab403163 = $(`<div id="html_7659376e4c8f410b81b2b6abab403163" style="width: 100.0%; height: 100.0%;">"Carrer del Cardenal Casa\u00f1as"</div>`)[0];
+            popup_be7a0ba2ccc74ed8ae991be7cecfd278.setContent(html_7659376e4c8f410b81b2b6abab403163);
+        
+
+        poly_line_88d36bba8a6147da9956ca70374be051.bindPopup(popup_be7a0ba2ccc74ed8ae991be7cecfd278)
+        ;
+
+        
+    
+    
+            var poly_line_4f1cbdc195fc438eae68b166d38006c3 = L.polyline(
+                [[41.3819741, 2.173468], [41.3822399, 2.1736612]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_a8950c42c02f469bbd3fccf9dde1a847 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20a82ce2468d4cb681ccd501b48b3319 = $(`<div id="html_20a82ce2468d4cb681ccd501b48b3319" style="width: 100.0%; height: 100.0%;">"Carrer del Cardenal Casa\u00f1as"</div>`)[0];
+            popup_a8950c42c02f469bbd3fccf9dde1a847.setContent(html_20a82ce2468d4cb681ccd501b48b3319);
+        
+
+        poly_line_4f1cbdc195fc438eae68b166d38006c3.bindPopup(popup_a8950c42c02f469bbd3fccf9dde1a847)
+        ;
+
+        
+    
+    
+            var poly_line_691f7df5fff6460e9df6d6c622dc3c0c = L.polyline(
+                [[41.3817821, 2.1744832], [41.381585, 2.1745904]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_5049873ef20148e386c91a6206cb221f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a84d5ec2e4f40309efcd68102a64582 = $(`<div id="html_7a84d5ec2e4f40309efcd68102a64582" style="width: 100.0%; height: 100.0%;">"Carrer de n'Alsina"</div>`)[0];
+            popup_5049873ef20148e386c91a6206cb221f.setContent(html_7a84d5ec2e4f40309efcd68102a64582);
+        
+
+        poly_line_691f7df5fff6460e9df6d6c622dc3c0c.bindPopup(popup_5049873ef20148e386c91a6206cb221f)
+        ;
+
+        
+    
+    
+            var poly_line_fd62c47640f64667b3781a3cca93efb2 = L.polyline(
+                [[41.3817821, 2.1744832], [41.3819018, 2.1746943]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_5bbd1cd2bb6f4b8cb39bd7901baecdcb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b5a53dd40214e6cbd19e65c0d1ec1d6 = $(`<div id="html_8b5a53dd40214e6cbd19e65c0d1ec1d6" style="width: 100.0%; height: 100.0%;">"Carrer de la Llebre"</div>`)[0];
+            popup_5bbd1cd2bb6f4b8cb39bd7901baecdcb.setContent(html_8b5a53dd40214e6cbd19e65c0d1ec1d6);
+        
+
+        poly_line_fd62c47640f64667b3781a3cca93efb2.bindPopup(popup_5bbd1cd2bb6f4b8cb39bd7901baecdcb)
+        ;
+
+        
+    
+    
+            var poly_line_d8957121c86642c7914f51b95aadacc5 = L.polyline(
+                [[41.3817821, 2.1744832], [41.3819294, 2.174346], [41.381955, 2.1743673], [41.3820434, 2.174536]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_714bc8013c0b4878aa46c36c0d3899ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7dece96f1914b0081cee3203bd503a7 = $(`<div id="html_b7dece96f1914b0081cee3203bd503a7" style="width: 100.0%; height: 100.0%;">NaN</div>`)[0];
+            popup_714bc8013c0b4878aa46c36c0d3899ea.setContent(html_b7dece96f1914b0081cee3203bd503a7);
+        
+
+        poly_line_d8957121c86642c7914f51b95aadacc5.bindPopup(popup_714bc8013c0b4878aa46c36c0d3899ea)
+        ;
+
+        
+    
+    
+            var poly_line_185804c206ee44b5b22ca9d230dcdbf6 = L.polyline(
+                [[41.383178, 2.1744511], [41.382769, 2.1746095]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_4dcbc10ae5de4bf78a5ffc16afdcdabb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8486e759fa90478fbf0090a89be6c4c5 = $(`<div id="html_8486e759fa90478fbf0090a89be6c4c5" style="width: 100.0%; height: 100.0%;">"Carrer dels Banys Nous"</div>`)[0];
+            popup_4dcbc10ae5de4bf78a5ffc16afdcdabb.setContent(html_8486e759fa90478fbf0090a89be6c4c5);
+        
+
+        poly_line_185804c206ee44b5b22ca9d230dcdbf6.bindPopup(popup_4dcbc10ae5de4bf78a5ffc16afdcdabb)
+        ;
+
+        
+    
+    
+            var poly_line_3409558b979f494e92e08a718cc912d9 = L.polyline(
+                [[41.383178, 2.1744511], [41.3826734, 2.1741059], [41.3826008, 2.1740746]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_0a31d62581ea4e1e9cbcd671564cd772 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7a2778381594c2fabea73e823928b55 = $(`<div id="html_b7a2778381594c2fabea73e823928b55" style="width: 100.0%; height: 100.0%;">"Carrer de la Palla"</div>`)[0];
+            popup_0a31d62581ea4e1e9cbcd671564cd772.setContent(html_b7a2778381594c2fabea73e823928b55);
+        
+
+        poly_line_3409558b979f494e92e08a718cc912d9.bindPopup(popup_0a31d62581ea4e1e9cbcd671564cd772)
+        ;
+
+        
+    
+    
+            var poly_line_191a1fd28fc54a33b2b62a9ba55e497e = L.polyline(
+                [[41.382769, 2.1746095], [41.3825436, 2.1747432]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_1654534eb6e7443d918fe5ed16bb00f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45463fe2fada4a378bbfe757f2e1d5ba = $(`<div id="html_45463fe2fada4a378bbfe757f2e1d5ba" style="width: 100.0%; height: 100.0%;">"Carrer dels Banys Nous"</div>`)[0];
+            popup_1654534eb6e7443d918fe5ed16bb00f7.setContent(html_45463fe2fada4a378bbfe757f2e1d5ba);
+        
+
+        poly_line_191a1fd28fc54a33b2b62a9ba55e497e.bindPopup(popup_1654534eb6e7443d918fe5ed16bb00f7)
+        ;
+
+        
+    
+    
+            var poly_line_a916ddce625e4c01a6767ce62c4a6371 = L.polyline(
+                [[41.382769, 2.1746095], [41.383178, 2.1744511]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_d7ff51517ad340e38a54cdc25642cffe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a20a158fabda45179fbcb373c298fd74 = $(`<div id="html_a20a158fabda45179fbcb373c298fd74" style="width: 100.0%; height: 100.0%;">"Carrer dels Banys Nous"</div>`)[0];
+            popup_d7ff51517ad340e38a54cdc25642cffe.setContent(html_a20a158fabda45179fbcb373c298fd74);
+        
+
+        poly_line_a916ddce625e4c01a6767ce62c4a6371.bindPopup(popup_d7ff51517ad340e38a54cdc25642cffe)
+        ;
+
+        
+    
+    
+            var poly_line_d857dc4c20de41939f39bb679339ef65 = L.polyline(
+                [[41.382769, 2.1746095], [41.3828121, 2.1747968], [41.3828861, 2.1750567], [41.3828932, 2.1751068], [41.3830196, 2.175276]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_f8706e2dabb3466982ebee49f06914fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f20bd606fbf64f93b00ade10facbd849 = $(`<div id="html_f20bd606fbf64f93b00ade10facbd849" style="width: 100.0%; height: 100.0%;">["Carrer de Sant Sever", "Baixada de Santa Eul\u00e0lia"]</div>`)[0];
+            popup_f8706e2dabb3466982ebee49f06914fc.setContent(html_f20bd606fbf64f93b00ade10facbd849);
+        
+
+        poly_line_d857dc4c20de41939f39bb679339ef65.bindPopup(popup_f8706e2dabb3466982ebee49f06914fc)
+        ;
+
+        
+    
+    
+            var poly_line_ec4b3a8b5e784aada3308c94d913d871 = L.polyline(
+                [[41.3825436, 2.1747432], [41.382769, 2.1746095]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_549e02f283444e3ca40a3609e6a7bcbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0729e0bcb8844c4591e57c730297a956 = $(`<div id="html_0729e0bcb8844c4591e57c730297a956" style="width: 100.0%; height: 100.0%;">"Carrer dels Banys Nous"</div>`)[0];
+            popup_549e02f283444e3ca40a3609e6a7bcbc.setContent(html_0729e0bcb8844c4591e57c730297a956);
+        
+
+        poly_line_ec4b3a8b5e784aada3308c94d913d871.bindPopup(popup_549e02f283444e3ca40a3609e6a7bcbc)
+        ;
+
+        
+    
+    
+            var poly_line_680ba33653d7404ea8b29fdb8284f614 = L.polyline(
+                [[41.3825436, 2.1747432], [41.3824174, 2.1748456], [41.382349, 2.1749137], [41.3818838, 2.1754591]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_834b28fe4a5d4a31a98d1c3dc6b36171 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edc0503a7c8f4ff68be8ed89cae1fceb = $(`<div id="html_edc0503a7c8f4ff68be8ed89cae1fceb" style="width: 100.0%; height: 100.0%;">"Carrer dels Banys Nous"</div>`)[0];
+            popup_834b28fe4a5d4a31a98d1c3dc6b36171.setContent(html_edc0503a7c8f4ff68be8ed89cae1fceb);
+        
+
+        poly_line_680ba33653d7404ea8b29fdb8284f614.bindPopup(popup_834b28fe4a5d4a31a98d1c3dc6b36171)
+        ;
+
+        
+    
+    
+            var poly_line_113e8e1744fc404694b07aa48342114f = L.polyline(
+                [[41.3825436, 2.1747432], [41.3823809, 2.1744202], [41.3822925, 2.1742296]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_39ae12ed850b45c39d12ca4630cf2e32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aac81e97ba6f43f38b2dc7ac88936628 = $(`<div id="html_aac81e97ba6f43f38b2dc7ac88936628" style="width: 100.0%; height: 100.0%;">"Carrer de l'Ave Maria"</div>`)[0];
+            popup_39ae12ed850b45c39d12ca4630cf2e32.setContent(html_aac81e97ba6f43f38b2dc7ac88936628);
+        
+
+        poly_line_113e8e1744fc404694b07aa48342114f.bindPopup(popup_39ae12ed850b45c39d12ca4630cf2e32)
+        ;
+
+        
+    
+    
+            var poly_line_329355279c7e48b58c49e0fce619755b = L.polyline(
+                [[41.3838943, 2.1738822], [41.3839605, 2.1740836]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_53814c7902084cdaae886f21ab461b0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d06c5fde0cae459a82bf4a970d291baf = $(`<div id="html_d06c5fde0cae459a82bf4a970d291baf" style="width: 100.0%; height: 100.0%;">"Carrer de la Portaferrissa"</div>`)[0];
+            popup_53814c7902084cdaae886f21ab461b0f.setContent(html_d06c5fde0cae459a82bf4a970d291baf);
+        
+
+        poly_line_329355279c7e48b58c49e0fce619755b.bindPopup(popup_53814c7902084cdaae886f21ab461b0f)
+        ;
+
+        
+    
+    
+            var poly_line_8e017a29c3f44b758d34797cf9d74d70 = L.polyline(
+                [[41.3838943, 2.1738822], [41.383801, 2.1736463]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_b22f5119575a4020bf53d0ea81b3da61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58801f9c5c4648eaac319a1cead1e3f8 = $(`<div id="html_58801f9c5c4648eaac319a1cead1e3f8" style="width: 100.0%; height: 100.0%;">"Carrer de la Portaferrissa"</div>`)[0];
+            popup_b22f5119575a4020bf53d0ea81b3da61.setContent(html_58801f9c5c4648eaac319a1cead1e3f8);
+        
+
+        poly_line_8e017a29c3f44b758d34797cf9d74d70.bindPopup(popup_b22f5119575a4020bf53d0ea81b3da61)
+        ;
+
+        
+    
+    
+            var poly_line_02eae93d103f428aafb24d5efdf68751 = L.polyline(
+                [[41.3838943, 2.1738822], [41.3835675, 2.1739741], [41.3832821, 2.1739787], [41.3831463, 2.1739547], [41.3828551, 2.1739989], [41.3826965, 2.1740467], [41.3826008, 2.1740746]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_fd9891480c844b72bccf2c19a3297acc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd3e26826e7e4105a3e26521405acca8 = $(`<div id="html_bd3e26826e7e4105a3e26521405acca8" style="width: 100.0%; height: 100.0%;">"Carrer del Pi"</div>`)[0];
+            popup_fd9891480c844b72bccf2c19a3297acc.setContent(html_bd3e26826e7e4105a3e26521405acca8);
+        
+
+        poly_line_02eae93d103f428aafb24d5efdf68751.bindPopup(popup_fd9891480c844b72bccf2c19a3297acc)
+        ;
+
+        
+    
+    
+            var poly_line_7cbe6aee3e1142c898f5cf892c9e0e6b = L.polyline(
+                [[41.3811995, 2.1733931], [41.381222, 2.1734313]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_4e61f914189244af83e9c224279b65d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8546741ca764f9f985cb270967d8dbe = $(`<div id="html_b8546741ca764f9f985cb270967d8dbe" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_4e61f914189244af83e9c224279b65d5.setContent(html_b8546741ca764f9f985cb270967d8dbe);
+        
+
+        poly_line_7cbe6aee3e1142c898f5cf892c9e0e6b.bindPopup(popup_4e61f914189244af83e9c224279b65d5)
+        ;
+
+        
+    
+    
+            var poly_line_c3f8747b8be8451e9047933fe9b4e3b6 = L.polyline(
+                [[41.3811995, 2.1733931], [41.3813067, 2.1733006]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_51420a529b4e4a188eebf79a54f962af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64b18caec1ac4833aa22979c68ea5802 = $(`<div id="html_64b18caec1ac4833aa22979c68ea5802" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_51420a529b4e4a188eebf79a54f962af.setContent(html_64b18caec1ac4833aa22979c68ea5802);
+        
+
+        poly_line_c3f8747b8be8451e9047933fe9b4e3b6.bindPopup(popup_51420a529b4e4a188eebf79a54f962af)
+        ;
+
+        
+    
+    
+            var poly_line_a3e068a11db642919970be6501b5d23a = L.polyline(
+                [[41.3811995, 2.1733931], [41.3811833, 2.173365], [41.3811421, 2.1732938]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_ea648a1aab01490d914442bfa05c2749 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cd5a1039b9f488db82135df3844adf0 = $(`<div id="html_9cd5a1039b9f488db82135df3844adf0" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_ea648a1aab01490d914442bfa05c2749.setContent(html_9cd5a1039b9f488db82135df3844adf0);
+        
+
+        poly_line_a3e068a11db642919970be6501b5d23a.bindPopup(popup_ea648a1aab01490d914442bfa05c2749)
+        ;
+
+        
+    
+    
+            var poly_line_0c44671dafed456abf230ea20e5666b8 = L.polyline(
+                [[41.3813182, 2.1735201], [41.3813822, 2.1737648]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_8981deca334f4d62ae10e4fddc598bda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7186fcf1636d44bda294f2f366a1a4c4 = $(`<div id="html_7186fcf1636d44bda294f2f366a1a4c4" style="width: 100.0%; height: 100.0%;">"Carrer de la Boqueria"</div>`)[0];
+            popup_8981deca334f4d62ae10e4fddc598bda.setContent(html_7186fcf1636d44bda294f2f366a1a4c4);
+        
+
+        poly_line_0c44671dafed456abf230ea20e5666b8.bindPopup(popup_8981deca334f4d62ae10e4fddc598bda)
+        ;
+
+        
+    
+    
+            var poly_line_eefdd87441ca4c05824d99af3d9c87ad = L.polyline(
+                [[41.3813182, 2.1735201], [41.3813799, 2.1734644]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_9e5dabc4d8fe44259bd29cfa2405933b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ed62cdc1530418e862b9b92b4ee7fa7 = $(`<div id="html_1ed62cdc1530418e862b9b92b4ee7fa7" style="width: 100.0%; height: 100.0%;">"Pla\u00e7a de la Boqueria"</div>`)[0];
+            popup_9e5dabc4d8fe44259bd29cfa2405933b.setContent(html_1ed62cdc1530418e862b9b92b4ee7fa7);
+        
+
+        poly_line_eefdd87441ca4c05824d99af3d9c87ad.bindPopup(popup_9e5dabc4d8fe44259bd29cfa2405933b)
+        ;
+
+        
+    
+    
+            var poly_line_c7bbbe44977f478b95b44c139f3a79cd = L.polyline(
+                [[41.3813182, 2.1735201], [41.3812296, 2.1734442], [41.381222, 2.1734313]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_7cba1967736e421da6f6a510106169a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcb1849ce7254d8fa571d9ad7208922a = $(`<div id="html_bcb1849ce7254d8fa571d9ad7208922a" style="width: 100.0%; height: 100.0%;">["Pla\u00e7a de la Boqueria", "La Rambla"]</div>`)[0];
+            popup_7cba1967736e421da6f6a510106169a7.setContent(html_bcb1849ce7254d8fa571d9ad7208922a);
+        
+
+        poly_line_c7bbbe44977f478b95b44c139f3a79cd.bindPopup(popup_7cba1967736e421da6f6a510106169a7)
+        ;
+
+        
+    
+    
+            var poly_line_9d0bbefc5ea64e3ea62fd132eb7cd187 = L.polyline(
+                [[41.3818517, 2.173416], [41.3819741, 2.173468]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_cfbace3ffd21488282a06599882e69db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15f21a42e813413289a58bfd51099e85 = $(`<div id="html_15f21a42e813413289a58bfd51099e85" style="width: 100.0%; height: 100.0%;">"Carrer del Cardenal Casa\u00f1as"</div>`)[0];
+            popup_cfbace3ffd21488282a06599882e69db.setContent(html_15f21a42e813413289a58bfd51099e85);
+        
+
+        poly_line_9d0bbefc5ea64e3ea62fd132eb7cd187.bindPopup(popup_cfbace3ffd21488282a06599882e69db)
+        ;
+
+        
+    
+    
+            var poly_line_e66fa23ee9324804ad42643ab91afa55 = L.polyline(
+                [[41.3818517, 2.173416], [41.381565, 2.1733869], [41.3814205, 2.1734357], [41.3813799, 2.1734644]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_aef1c1d6e3f347ea90fdd82ccc195309 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6dc3e3c810c64faea76201bd8fc71bf4 = $(`<div id="html_6dc3e3c810c64faea76201bd8fc71bf4" style="width: 100.0%; height: 100.0%;">["Carrer del Cardenal Casa\u00f1as", "Pla\u00e7a de la Boqueria"]</div>`)[0];
+            popup_aef1c1d6e3f347ea90fdd82ccc195309.setContent(html_6dc3e3c810c64faea76201bd8fc71bf4);
+        
+
+        poly_line_e66fa23ee9324804ad42643ab91afa55.bindPopup(popup_aef1c1d6e3f347ea90fdd82ccc195309)
+        ;
+
+        
+    
+    
+            var poly_line_04b57aec29dd4ab68dbfd1607023ec3e = L.polyline(
+                [[41.3818517, 2.173416], [41.3818444, 2.1732801], [41.3818308, 2.172991], [41.38183, 2.1729091], [41.381831, 2.1728817]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_7f843909c1fb46ac84b5af62a10c69cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d19a62aed17f40c79b27220dbacc19d8 = $(`<div id="html_d19a62aed17f40c79b27220dbacc19d8" style="width: 100.0%; height: 100.0%;">["Passatge d'Amadeu Bagu\u00e9s", "La Rambla"]</div>`)[0];
+            popup_7f843909c1fb46ac84b5af62a10c69cf.setContent(html_d19a62aed17f40c79b27220dbacc19d8);
+        
+
+        poly_line_04b57aec29dd4ab68dbfd1607023ec3e.bindPopup(popup_7f843909c1fb46ac84b5af62a10c69cf)
+        ;
+
+        
+    
+    
+            var poly_line_2a4f078de6e4431491919db2a2e0fcdb = L.polyline(
+                [[41.3819018, 2.1746943], [41.3817821, 2.1744832]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_f7e6a8271d0547f7a2d2a241c599c249 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b11055fec814b6786d66555866ac997 = $(`<div id="html_0b11055fec814b6786d66555866ac997" style="width: 100.0%; height: 100.0%;">"Carrer de la Llebre"</div>`)[0];
+            popup_f7e6a8271d0547f7a2d2a241c599c249.setContent(html_0b11055fec814b6786d66555866ac997);
+        
+
+        poly_line_2a4f078de6e4431491919db2a2e0fcdb.bindPopup(popup_f7e6a8271d0547f7a2d2a241c599c249)
+        ;
+
+        
+    
+    
+            var poly_line_74bcd78b20a148c4825b9b268a5ef792 = L.polyline(
+                [[41.3819018, 2.1746943], [41.3816361, 2.1748315]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_93b401571eea4ac891dbe2fe0cbdf2fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b1a15b4716e4c3c87d92e416469c763 = $(`<div id="html_5b1a15b4716e4c3c87d92e416469c763" style="width: 100.0%; height: 100.0%;">"Carrer dels Cecs de la Boqueria"</div>`)[0];
+            popup_93b401571eea4ac891dbe2fe0cbdf2fd.setContent(html_5b1a15b4716e4c3c87d92e416469c763);
+        
+
+        poly_line_74bcd78b20a148c4825b9b268a5ef792.bindPopup(popup_93b401571eea4ac891dbe2fe0cbdf2fd)
+        ;
+
+        
+    
+    
+            var poly_line_656808989b104842a6222426e2d74077 = L.polyline(
+                [[41.3819018, 2.1746943], [41.3820345, 2.1745534], [41.3820434, 2.174536]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_ffc2a49946bd44439053d2d667e04104 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee5421a3e75f457789f916c8d3e31a8b = $(`<div id="html_ee5421a3e75f457789f916c8d3e31a8b" style="width: 100.0%; height: 100.0%;">"Carrer dels Cecs de la Boqueria"</div>`)[0];
+            popup_ffc2a49946bd44439053d2d667e04104.setContent(html_ee5421a3e75f457789f916c8d3e31a8b);
+        
+
+        poly_line_656808989b104842a6222426e2d74077.bindPopup(popup_ffc2a49946bd44439053d2d667e04104)
+        ;
+
+        
+    
+    
+            var poly_line_64536dc7661648e188775f28d2c81f01 = L.polyline(
+                [[41.3818838, 2.1754591], [41.382349, 2.1749137], [41.3824174, 2.1748456], [41.3825436, 2.1747432]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_f767c7cb69c8459ba75003f6ae808ee4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6563b75b8b1342ecbdb9e0355bde2ef6 = $(`<div id="html_6563b75b8b1342ecbdb9e0355bde2ef6" style="width: 100.0%; height: 100.0%;">"Carrer dels Banys Nous"</div>`)[0];
+            popup_f767c7cb69c8459ba75003f6ae808ee4.setContent(html_6563b75b8b1342ecbdb9e0355bde2ef6);
+        
+
+        poly_line_64536dc7661648e188775f28d2c81f01.bindPopup(popup_f767c7cb69c8459ba75003f6ae808ee4)
+        ;
+
+        
+    
+    
+            var poly_line_21bd76f2e96e499391fb54ae811a88a2 = L.polyline(
+                [[41.3830867, 2.1753746], [41.3830196, 2.175276]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_b8513d99e4b9418b82b5225844284928 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc7c6949e85747728947112dbf599784 = $(`<div id="html_bc7c6949e85747728947112dbf599784" style="width: 100.0%; height: 100.0%;">"Carrer de Sant Sever"</div>`)[0];
+            popup_b8513d99e4b9418b82b5225844284928.setContent(html_bc7c6949e85747728947112dbf599784);
+        
+
+        poly_line_21bd76f2e96e499391fb54ae811a88a2.bindPopup(popup_b8513d99e4b9418b82b5225844284928)
+        ;
+
+        
+    
+    
+            var poly_line_d27a8b5e15b148f38db14eda7278cec3 = L.polyline(
+                [[41.3816317, 2.1727239], [41.3816189, 2.1726684], [41.3816158, 2.1726555]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_0302271806c64efe88cc04bf4199fe47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2ec9bf9c90243a09faf40f347ab2a15 = $(`<div id="html_f2ec9bf9c90243a09faf40f347ab2a15" style="width: 100.0%; height: 100.0%;">["La Rambla", "Carrer de la Petxina"]</div>`)[0];
+            popup_0302271806c64efe88cc04bf4199fe47.setContent(html_f2ec9bf9c90243a09faf40f347ab2a15);
+        
+
+        poly_line_d27a8b5e15b148f38db14eda7278cec3.bindPopup(popup_0302271806c64efe88cc04bf4199fe47)
+        ;
+
+        
+    
+    
+            var poly_line_7091659a5df941439ecb7144a1a0991b = L.polyline(
+                [[41.3816317, 2.1727239], [41.3816383, 2.1727632], [41.3816699, 2.1728341]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_4f514b19980f4ef39f0ce1a33abb0ec9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c7d2ee0230a4496a98ea7e2440a5dc7 = $(`<div id="html_7c7d2ee0230a4496a98ea7e2440a5dc7" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_4f514b19980f4ef39f0ce1a33abb0ec9.setContent(html_7c7d2ee0230a4496a98ea7e2440a5dc7);
+        
+
+        poly_line_7091659a5df941439ecb7144a1a0991b.bindPopup(popup_4f514b19980f4ef39f0ce1a33abb0ec9)
+        ;
+
+        
+    
+    
+            var poly_line_e5e5e24d16ae4d7aa18742a3ed88edb0 = L.polyline(
+                [[41.383801, 2.1736463], [41.3838943, 2.1738822]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_1f73ce076b314347b2817db2458f3a99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d4f3287ece7438b87eb7ebd2834d454 = $(`<div id="html_5d4f3287ece7438b87eb7ebd2834d454" style="width: 100.0%; height: 100.0%;">"Carrer de la Portaferrissa"</div>`)[0];
+            popup_1f73ce076b314347b2817db2458f3a99.setContent(html_5d4f3287ece7438b87eb7ebd2834d454);
+        
+
+        poly_line_e5e5e24d16ae4d7aa18742a3ed88edb0.bindPopup(popup_1f73ce076b314347b2817db2458f3a99)
+        ;
+
+        
+    
+    
+            var poly_line_61b13d4ab6b94d97ad1275d0c333955c = L.polyline(
+                [[41.3812027, 2.1730883], [41.3812229, 2.1731263], [41.3812571, 2.1731942]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_ab335e085ee946ad89c08ae32a9bcd6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1012515177924c7ea6313449a31465b9 = $(`<div id="html_1012515177924c7ea6313449a31465b9" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_ab335e085ee946ad89c08ae32a9bcd6d.setContent(html_1012515177924c7ea6313449a31465b9);
+        
+
+        poly_line_61b13d4ab6b94d97ad1275d0c333955c.bindPopup(popup_ab335e085ee946ad89c08ae32a9bcd6d)
+        ;
+
+        
+    
+    
+            var poly_line_28a1a64fb59948e1b501f4684058dc99 = L.polyline(
+                [[41.3812571, 2.1731942], [41.3813302, 2.1731316]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_815c6211e7174ebd999ff0fb5f77ed2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05fe534ff001415f9dc73ade1ad7c21e = $(`<div id="html_05fe534ff001415f9dc73ade1ad7c21e" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_815c6211e7174ebd999ff0fb5f77ed2a.setContent(html_05fe534ff001415f9dc73ade1ad7c21e);
+        
+
+        poly_line_28a1a64fb59948e1b501f4684058dc99.bindPopup(popup_815c6211e7174ebd999ff0fb5f77ed2a)
+        ;
+
+        
+    
+    
+            var poly_line_fda09d86586143e5aab7bbe9e53e019e = L.polyline(
+                [[41.3812571, 2.1731942], [41.3812925, 2.1732738], [41.3813067, 2.1733006]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_478b3423750d46eab157cc96b981f733 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_daa82c0715954cb8a43682eb358444db = $(`<div id="html_daa82c0715954cb8a43682eb358444db" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_478b3423750d46eab157cc96b981f733.setContent(html_daa82c0715954cb8a43682eb358444db);
+        
+
+        poly_line_fda09d86586143e5aab7bbe9e53e019e.bindPopup(popup_478b3423750d46eab157cc96b981f733)
+        ;
+
+        
+    
+    
+            var poly_line_b80d0cebbd294b2998c8a7921617ac23 = L.polyline(
+                [[41.3812571, 2.1731942], [41.3812229, 2.1731263], [41.3812027, 2.1730883]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_253d55687edc483fb04dd8d2123afe66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31c00836bbb245b2b5095f328498bb0b = $(`<div id="html_31c00836bbb245b2b5095f328498bb0b" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_253d55687edc483fb04dd8d2123afe66.setContent(html_31c00836bbb245b2b5095f328498bb0b);
+        
+
+        poly_line_b80d0cebbd294b2998c8a7921617ac23.bindPopup(popup_253d55687edc483fb04dd8d2123afe66)
+        ;
+
+        
+    
+    
+            var poly_line_9376e0fac4fe44eb8c792fec949edbee = L.polyline(
+                [[41.3812571, 2.1731942], [41.3811838, 2.1732573], [41.3811421, 2.1732938]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_198cce06fdf04e389b27786de56a3f95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcff4d1c5c764dccbf1da20353105574 = $(`<div id="html_dcff4d1c5c764dccbf1da20353105574" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_198cce06fdf04e389b27786de56a3f95.setContent(html_dcff4d1c5c764dccbf1da20353105574);
+        
+
+        poly_line_9376e0fac4fe44eb8c792fec949edbee.bindPopup(popup_198cce06fdf04e389b27786de56a3f95)
+        ;
+
+        
+    
+    
+            var poly_line_73c6d4c67d41496386c420efc709ec2e = L.polyline(
+                [[41.3811421, 2.1732938], [41.3811833, 2.173365], [41.3811995, 2.1733931]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_13543be33dfb4da0bdc3bdd0f78911de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7372558d5ecf4e0f824bf2a5cd5577f8 = $(`<div id="html_7372558d5ecf4e0f824bf2a5cd5577f8" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_13543be33dfb4da0bdc3bdd0f78911de.setContent(html_7372558d5ecf4e0f824bf2a5cd5577f8);
+        
+
+        poly_line_73c6d4c67d41496386c420efc709ec2e.bindPopup(popup_13543be33dfb4da0bdc3bdd0f78911de)
+        ;
+
+        
+    
+    
+            var poly_line_e01ff40792bf4a4b833c9752e4446257 = L.polyline(
+                [[41.3811421, 2.1732938], [41.3811838, 2.1732573], [41.3812571, 2.1731942]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_d50c816894e6460995edec40f50028e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cef31590fc6417fa7797b65b6bed3e5 = $(`<div id="html_8cef31590fc6417fa7797b65b6bed3e5" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_d50c816894e6460995edec40f50028e6.setContent(html_8cef31590fc6417fa7797b65b6bed3e5);
+        
+
+        poly_line_e01ff40792bf4a4b833c9752e4446257.bindPopup(popup_d50c816894e6460995edec40f50028e6)
+        ;
+
+        
+    
+    
+            var poly_line_499d4225b14f4cb0bbd4bc2e52bb0dab = L.polyline(
+                [[41.3816699, 2.1728341], [41.3818035, 2.1727209]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_8b3035465a2642a38648638d8213836c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_162f7dffd10f45579838f808847faaf8 = $(`<div id="html_162f7dffd10f45579838f808847faaf8" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_8b3035465a2642a38648638d8213836c.setContent(html_162f7dffd10f45579838f808847faaf8);
+        
+
+        poly_line_499d4225b14f4cb0bbd4bc2e52bb0dab.bindPopup(popup_8b3035465a2642a38648638d8213836c)
+        ;
+
+        
+    
+    
+            var poly_line_cb5e4f43729b463eba9d002c1782fc9c = L.polyline(
+                [[41.3816699, 2.1728341], [41.3813302, 2.1731316]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_94ff6bd8994c451f868f2323f1133730 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f6f5646ac0b463487551a69b23ae961 = $(`<div id="html_0f6f5646ac0b463487551a69b23ae961" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_94ff6bd8994c451f868f2323f1133730.setContent(html_0f6f5646ac0b463487551a69b23ae961);
+        
+
+        poly_line_cb5e4f43729b463eba9d002c1782fc9c.bindPopup(popup_94ff6bd8994c451f868f2323f1133730)
+        ;
+
+        
+    
+    
+            var poly_line_203589cde1e14c89987c45d3dab71015 = L.polyline(
+                [[41.3816699, 2.1728341], [41.3816383, 2.1727632], [41.3816317, 2.1727239]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_7afb26683acb4b6b9dea8f931f939546 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_478b8bcf49bc4694ae20be593a1b1827 = $(`<div id="html_478b8bcf49bc4694ae20be593a1b1827" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_7afb26683acb4b6b9dea8f931f939546.setContent(html_478b8bcf49bc4694ae20be593a1b1827);
+        
+
+        poly_line_203589cde1e14c89987c45d3dab71015.bindPopup(popup_7afb26683acb4b6b9dea8f931f939546)
+        ;
+
+        
+    
+    
+            var poly_line_d83f8486e1e64611bea807442cbd1ea8 = L.polyline(
+                [[41.3813067, 2.1733006], [41.3813264, 2.1733406]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_a81302bac41e4bf5abf1d4540fc26781 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5610d136e2b419bb3065a95274117c5 = $(`<div id="html_d5610d136e2b419bb3065a95274117c5" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_a81302bac41e4bf5abf1d4540fc26781.setContent(html_d5610d136e2b419bb3065a95274117c5);
+        
+
+        poly_line_d83f8486e1e64611bea807442cbd1ea8.bindPopup(popup_a81302bac41e4bf5abf1d4540fc26781)
+        ;
+
+        
+    
+    
+            var poly_line_aa3c527ee4844de1900bfabf130eb44d = L.polyline(
+                [[41.3813067, 2.1733006], [41.3811995, 2.1733931]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_0870f8d1520f4af1acc9442ad285173d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f9948b6c11a41089da7e05b0a3d2d22 = $(`<div id="html_9f9948b6c11a41089da7e05b0a3d2d22" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_0870f8d1520f4af1acc9442ad285173d.setContent(html_9f9948b6c11a41089da7e05b0a3d2d22);
+        
+
+        poly_line_aa3c527ee4844de1900bfabf130eb44d.bindPopup(popup_0870f8d1520f4af1acc9442ad285173d)
+        ;
+
+        
+    
+    
+            var poly_line_245d7eb37d4441c784ba48f0ffebce87 = L.polyline(
+                [[41.3813067, 2.1733006], [41.3812925, 2.1732738], [41.3812571, 2.1731942]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_176a02cce29d445b9844dd1961cea77b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80753eaae597449e8b7704f76a221555 = $(`<div id="html_80753eaae597449e8b7704f76a221555" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_176a02cce29d445b9844dd1961cea77b.setContent(html_80753eaae597449e8b7704f76a221555);
+        
+
+        poly_line_245d7eb37d4441c784ba48f0ffebce87.bindPopup(popup_176a02cce29d445b9844dd1961cea77b)
+        ;
+
+        
+    
+    
+            var poly_line_a1d11e29f70e4ffd8bc9e2aec809b017 = L.polyline(
+                [[41.3813067, 2.1733006], [41.3813418, 2.1732704], [41.3816871, 2.1729617], [41.3818326, 2.1728362]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_e594a2a4cd684a6282138ba7b47b0a16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab3c6be4d8b940eabcb683ad9a4ac3d2 = $(`<div id="html_ab3c6be4d8b940eabcb683ad9a4ac3d2" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_e594a2a4cd684a6282138ba7b47b0a16.setContent(html_ab3c6be4d8b940eabcb683ad9a4ac3d2);
+        
+
+        poly_line_a1d11e29f70e4ffd8bc9e2aec809b017.bindPopup(popup_e594a2a4cd684a6282138ba7b47b0a16)
+        ;
+
+        
+    
+    
+            var poly_line_1484bc1ad3a94542882bcfadd969f56b = L.polyline(
+                [[41.3813302, 2.1731316], [41.3816699, 2.1728341]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_9309ab521aea4dac9b91fb1aeef2409b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_405fe7fdba6b410bbc9cdcb14ca67ac0 = $(`<div id="html_405fe7fdba6b410bbc9cdcb14ca67ac0" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_9309ab521aea4dac9b91fb1aeef2409b.setContent(html_405fe7fdba6b410bbc9cdcb14ca67ac0);
+        
+
+        poly_line_1484bc1ad3a94542882bcfadd969f56b.bindPopup(popup_9309ab521aea4dac9b91fb1aeef2409b)
+        ;
+
+        
+    
+    
+            var poly_line_d7b8e024f40a49d3877b13721cbb4008 = L.polyline(
+                [[41.3813302, 2.1731316], [41.3812571, 2.1731942]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_28a49354db624456aaf6e28617f839ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5658f384a6b94c0ba4e137dbf52299cf = $(`<div id="html_5658f384a6b94c0ba4e137dbf52299cf" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_28a49354db624456aaf6e28617f839ff.setContent(html_5658f384a6b94c0ba4e137dbf52299cf);
+        
+
+        poly_line_d7b8e024f40a49d3877b13721cbb4008.bindPopup(popup_28a49354db624456aaf6e28617f839ff)
+        ;
+
+        
+    
+    
+            var poly_line_fdf48c8cc3c44f1da5f772db75d8fd01 = L.polyline(
+                [[41.3816158, 2.1726555], [41.3816189, 2.1726684], [41.3816317, 2.1727239]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_2831a7f9b92c4cea9404bd0e9239e806 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95bc692cf017474c93fa10fe15eb69b4 = $(`<div id="html_95bc692cf017474c93fa10fe15eb69b4" style="width: 100.0%; height: 100.0%;">["La Rambla", "Carrer de la Petxina"]</div>`)[0];
+            popup_2831a7f9b92c4cea9404bd0e9239e806.setContent(html_95bc692cf017474c93fa10fe15eb69b4);
+        
+
+        poly_line_fdf48c8cc3c44f1da5f772db75d8fd01.bindPopup(popup_2831a7f9b92c4cea9404bd0e9239e806)
+        ;
+
+        
+    
+    
+            var poly_line_4396ae4035ca47b4b726e692e920d88b = L.polyline(
+                [[41.3818035, 2.1727209], [41.3816699, 2.1728341]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_ac8fa3dacdb743a295cb43e8f1ce2cc0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_589da324b34e47fc89d1ff8731d7dc1d = $(`<div id="html_589da324b34e47fc89d1ff8731d7dc1d" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_ac8fa3dacdb743a295cb43e8f1ce2cc0.setContent(html_589da324b34e47fc89d1ff8731d7dc1d);
+        
+
+        poly_line_4396ae4035ca47b4b726e692e920d88b.bindPopup(popup_ac8fa3dacdb743a295cb43e8f1ce2cc0)
+        ;
+
+        
+    
+    
+            var poly_line_9f95601a64ce4267850b5c733daa6f67 = L.polyline(
+                [[41.3818035, 2.1727209], [41.3818338, 2.1728015], [41.3818326, 2.1728362]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_831485b9273b4562b84344ac793475b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_626aa65d79224ddfb2cea5b6b2fb0972 = $(`<div id="html_626aa65d79224ddfb2cea5b6b2fb0972" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_831485b9273b4562b84344ac793475b3.setContent(html_626aa65d79224ddfb2cea5b6b2fb0972);
+        
+
+        poly_line_9f95601a64ce4267850b5c733daa6f67.bindPopup(popup_831485b9273b4562b84344ac793475b3)
+        ;
+
+        
+    
+    
+            var poly_line_ec6a8ed7153e43849b7460a0b294cdc4 = L.polyline(
+                [[41.3818326, 2.1728362], [41.381831, 2.1728817]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_61f72d25375b47bc9baac56f0661c3ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60be2ffacec64f89bff5e7c7dad3c0b0 = $(`<div id="html_60be2ffacec64f89bff5e7c7dad3c0b0" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_61f72d25375b47bc9baac56f0661c3ff.setContent(html_60be2ffacec64f89bff5e7c7dad3c0b0);
+        
+
+        poly_line_ec6a8ed7153e43849b7460a0b294cdc4.bindPopup(popup_61f72d25375b47bc9baac56f0661c3ff)
+        ;
+
+        
+    
+    
+            var poly_line_d98cd0a6f84a47f7a82f57e309ef162d = L.polyline(
+                [[41.3818326, 2.1728362], [41.3818338, 2.1728015], [41.3818035, 2.1727209]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_874e21072edd469a965117ce077dd425 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82fc2538ca664dbc82e361ed9923f0d5 = $(`<div id="html_82fc2538ca664dbc82e361ed9923f0d5" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_874e21072edd469a965117ce077dd425.setContent(html_82fc2538ca664dbc82e361ed9923f0d5);
+        
+
+        poly_line_d98cd0a6f84a47f7a82f57e309ef162d.bindPopup(popup_874e21072edd469a965117ce077dd425)
+        ;
+
+        
+    
+    
+            var poly_line_542dea756c5445ca960493515f5db0f7 = L.polyline(
+                [[41.3818326, 2.1728362], [41.3816871, 2.1729617], [41.3813418, 2.1732704], [41.3813067, 2.1733006]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_93d683e2164a460887afba5aec4656bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07d017de02e14099a5ddd24eaa0680f1 = $(`<div id="html_07d017de02e14099a5ddd24eaa0680f1" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_93d683e2164a460887afba5aec4656bb.setContent(html_07d017de02e14099a5ddd24eaa0680f1);
+        
+
+        poly_line_542dea756c5445ca960493515f5db0f7.bindPopup(popup_93d683e2164a460887afba5aec4656bb)
+        ;
+
+        
+    
+    
+            var poly_line_bac3f9fb932e4fc8bd541c344416427e = L.polyline(
+                [[41.3816696, 2.174953], [41.3817523, 2.1752734]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_0c82a0d1e09349c79714d269a9834671 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e84256def7244670a30ed57d20ce4cbb = $(`<div id="html_e84256def7244670a30ed57d20ce4cbb" style="width: 100.0%; height: 100.0%;">"Carrer de la Boqueria"</div>`)[0];
+            popup_0c82a0d1e09349c79714d269a9834671.setContent(html_e84256def7244670a30ed57d20ce4cbb);
+        
+
+        poly_line_bac3f9fb932e4fc8bd541c344416427e.bindPopup(popup_0c82a0d1e09349c79714d269a9834671)
+        ;
+
+        
+    
+    
+            var poly_line_7113d49499f34aa89527e2b8bde4fee2 = L.polyline(
+                [[41.3816696, 2.174953], [41.3816361, 2.1748315]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_d8a5a6f024a04d6f8e4e8ee335d6edf0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cd7ed6734dc42c5b1126a471d364e26 = $(`<div id="html_1cd7ed6734dc42c5b1126a471d364e26" style="width: 100.0%; height: 100.0%;">"Carrer de la Boqueria"</div>`)[0];
+            popup_d8a5a6f024a04d6f8e4e8ee335d6edf0.setContent(html_1cd7ed6734dc42c5b1126a471d364e26);
+        
+
+        poly_line_7113d49499f34aa89527e2b8bde4fee2.bindPopup(popup_d8a5a6f024a04d6f8e4e8ee335d6edf0)
+        ;
+
+        
+    
+    
+            var poly_line_61596c3801d543aaa8e1b04fbf1cc8c5 = L.polyline(
+                [[41.3813799, 2.1734644], [41.3813182, 2.1735201]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_ea7656eadcf341598e6b7e5b7c224d3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_533533b11c4f4cb6bed4f988efc8b2a0 = $(`<div id="html_533533b11c4f4cb6bed4f988efc8b2a0" style="width: 100.0%; height: 100.0%;">"Pla\u00e7a de la Boqueria"</div>`)[0];
+            popup_ea7656eadcf341598e6b7e5b7c224d3a.setContent(html_533533b11c4f4cb6bed4f988efc8b2a0);
+        
+
+        poly_line_61596c3801d543aaa8e1b04fbf1cc8c5.bindPopup(popup_ea7656eadcf341598e6b7e5b7c224d3a)
+        ;
+
+        
+    
+    
+            var poly_line_04ab3fe93a3744fd9e653ce1c3167fb7 = L.polyline(
+                [[41.3813799, 2.1734644], [41.3813333, 2.1733545], [41.3813264, 2.1733406]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_405ae3709866448c84ad531d09a1b377 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1754eeee43c14834b23486c5c2d4b40e = $(`<div id="html_1754eeee43c14834b23486c5c2d4b40e" style="width: 100.0%; height: 100.0%;">["Pla\u00e7a de la Boqueria", "La Rambla"]</div>`)[0];
+            popup_405ae3709866448c84ad531d09a1b377.setContent(html_1754eeee43c14834b23486c5c2d4b40e);
+        
+
+        poly_line_04ab3fe93a3744fd9e653ce1c3167fb7.bindPopup(popup_405ae3709866448c84ad531d09a1b377)
+        ;
+
+        
+    
+    
+            var poly_line_0c8abc60346947939743d220838f1ea1 = L.polyline(
+                [[41.3813799, 2.1734644], [41.3814205, 2.1734357], [41.381565, 2.1733869], [41.3818517, 2.173416]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_93c1ec015f404f9ca71c622618feceee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aed70283627d4f5f8c22eb7029a8cbd5 = $(`<div id="html_aed70283627d4f5f8c22eb7029a8cbd5" style="width: 100.0%; height: 100.0%;">["Carrer del Cardenal Casa\u00f1as", "Pla\u00e7a de la Boqueria"]</div>`)[0];
+            popup_93c1ec015f404f9ca71c622618feceee.setContent(html_aed70283627d4f5f8c22eb7029a8cbd5);
+        
+
+        poly_line_0c8abc60346947939743d220838f1ea1.bindPopup(popup_93c1ec015f404f9ca71c622618feceee)
+        ;
+
+        
+    
+    
+            var poly_line_17fb550b59cb4d118531d72338cb76d4 = L.polyline(
+                [[41.3820434, 2.174536], [41.3822925, 2.1742296]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_a43d11a010af4d02873f4380c0c1f15f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da8a8c95d71f4baabab10a07cf47bc8f = $(`<div id="html_da8a8c95d71f4baabab10a07cf47bc8f" style="width: 100.0%; height: 100.0%;">NaN</div>`)[0];
+            popup_a43d11a010af4d02873f4380c0c1f15f.setContent(html_da8a8c95d71f4baabab10a07cf47bc8f);
+        
+
+        poly_line_17fb550b59cb4d118531d72338cb76d4.bindPopup(popup_a43d11a010af4d02873f4380c0c1f15f)
+        ;
+
+        
+    
+    
+            var poly_line_947255644820443fb0b08b88af57985b = L.polyline(
+                [[41.3820434, 2.174536], [41.3820345, 2.1745534], [41.3819018, 2.1746943]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_4dbd1af0e0264a50b7a3e8843386c6d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_504816c6269b4d389ee98735f224330e = $(`<div id="html_504816c6269b4d389ee98735f224330e" style="width: 100.0%; height: 100.0%;">"Carrer dels Cecs de la Boqueria"</div>`)[0];
+            popup_4dbd1af0e0264a50b7a3e8843386c6d7.setContent(html_504816c6269b4d389ee98735f224330e);
+        
+
+        poly_line_947255644820443fb0b08b88af57985b.bindPopup(popup_4dbd1af0e0264a50b7a3e8843386c6d7)
+        ;
+
+        
+    
+    
+            var poly_line_babc9e676bd746d3847a770d2b06b853 = L.polyline(
+                [[41.3820434, 2.174536], [41.381955, 2.1743673], [41.3819294, 2.174346], [41.3817821, 2.1744832]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_18580775e50c485593ea0c9379b4f08b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9b7d6f913ba48fa9d10bcba9a8e1381 = $(`<div id="html_d9b7d6f913ba48fa9d10bcba9a8e1381" style="width: 100.0%; height: 100.0%;">NaN</div>`)[0];
+            popup_18580775e50c485593ea0c9379b4f08b.setContent(html_d9b7d6f913ba48fa9d10bcba9a8e1381);
+        
+
+        poly_line_babc9e676bd746d3847a770d2b06b853.bindPopup(popup_18580775e50c485593ea0c9379b4f08b)
+        ;
+
+        
+    
+    
+            var poly_line_958266147d2f447c96b641be52783896 = L.polyline(
+                [[41.3822925, 2.1742296], [41.3820434, 2.174536]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_f4398c196baa4d8f8ab9049206252765 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4bfa35d248584b60bcc18926fe66b5e2 = $(`<div id="html_4bfa35d248584b60bcc18926fe66b5e2" style="width: 100.0%; height: 100.0%;">NaN</div>`)[0];
+            popup_f4398c196baa4d8f8ab9049206252765.setContent(html_4bfa35d248584b60bcc18926fe66b5e2);
+        
+
+        poly_line_958266147d2f447c96b641be52783896.bindPopup(popup_f4398c196baa4d8f8ab9049206252765)
+        ;
+
+        
+    
+    
+            var poly_line_cc1ba3e764464fd1b0d40ccdfc588b2f = L.polyline(
+                [[41.3822925, 2.1742296], [41.3824, 2.1739282]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_4c02dd4b19584a8fbf63d78c611ea94c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97545eb453e84bebaf03cc1e3f66c6a8 = $(`<div id="html_97545eb453e84bebaf03cc1e3f66c6a8" style="width: 100.0%; height: 100.0%;">NaN</div>`)[0];
+            popup_4c02dd4b19584a8fbf63d78c611ea94c.setContent(html_97545eb453e84bebaf03cc1e3f66c6a8);
+        
+
+        poly_line_cc1ba3e764464fd1b0d40ccdfc588b2f.bindPopup(popup_4c02dd4b19584a8fbf63d78c611ea94c)
+        ;
+
+        
+    
+    
+            var poly_line_6cb32cd73c4b46acb4fb7c7c5e9bacd5 = L.polyline(
+                [[41.3822925, 2.1742296], [41.3823809, 2.1744202], [41.3825436, 2.1747432]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_ebe5ce2a44244d92bc96403e681a6cd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74ea62827c2c4480ad49c41e71d9cac8 = $(`<div id="html_74ea62827c2c4480ad49c41e71d9cac8" style="width: 100.0%; height: 100.0%;">"Carrer de l'Ave Maria"</div>`)[0];
+            popup_ebe5ce2a44244d92bc96403e681a6cd1.setContent(html_74ea62827c2c4480ad49c41e71d9cac8);
+        
+
+        poly_line_6cb32cd73c4b46acb4fb7c7c5e9bacd5.bindPopup(popup_ebe5ce2a44244d92bc96403e681a6cd1)
+        ;
+
+        
+    
+    
+            var poly_line_e2c8f50219854a1c817b0c420d5c2287 = L.polyline(
+                [[41.3823894, 2.1737671], [41.3824053, 2.1734414]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_000256b668034d89b99453ed14394728 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08200ef8df244b3d9dd76b1590fbf0bb = $(`<div id="html_08200ef8df244b3d9dd76b1590fbf0bb" style="width: 100.0%; height: 100.0%;">NaN</div>`)[0];
+            popup_000256b668034d89b99453ed14394728.setContent(html_08200ef8df244b3d9dd76b1590fbf0bb);
+        
+
+        poly_line_e2c8f50219854a1c817b0c420d5c2287.bindPopup(popup_000256b668034d89b99453ed14394728)
+        ;
+
+        
+    
+    
+            var poly_line_83031d0eeeb541f5868b0d4d1ee7f64f = L.polyline(
+                [[41.3823894, 2.1737671], [41.3822399, 2.1736612]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_e23a11c7e20f46a7beee61ac2669192a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bcb85c1464c4004b811c0f067620c22 = $(`<div id="html_2bcb85c1464c4004b811c0f067620c22" style="width: 100.0%; height: 100.0%;">NaN</div>`)[0];
+            popup_e23a11c7e20f46a7beee61ac2669192a.setContent(html_2bcb85c1464c4004b811c0f067620c22);
+        
+
+        poly_line_83031d0eeeb541f5868b0d4d1ee7f64f.bindPopup(popup_e23a11c7e20f46a7beee61ac2669192a)
+        ;
+
+        
+    
+    
+            var poly_line_6dcfa6ea5e39446098c69894ded4ec69 = L.polyline(
+                [[41.3823894, 2.1737671], [41.3824215, 2.1738874], [41.3824, 2.1739282]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_02c948a4968f484a8b4b00469adf2837 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68c90ee8d0104eb892d71193732829f1 = $(`<div id="html_68c90ee8d0104eb892d71193732829f1" style="width: 100.0%; height: 100.0%;">NaN</div>`)[0];
+            popup_02c948a4968f484a8b4b00469adf2837.setContent(html_68c90ee8d0104eb892d71193732829f1);
+        
+
+        poly_line_6dcfa6ea5e39446098c69894ded4ec69.bindPopup(popup_02c948a4968f484a8b4b00469adf2837)
+        ;
+
+        
+    
+    
+            var poly_line_132188f6e38c47abbd27b4a0d76c559f = L.polyline(
+                [[41.3824, 2.1739282], [41.3822925, 2.1742296]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_c2c327132e3443beaf914d3437e4d8c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a098922ddb24751b9cb4405efc320a6 = $(`<div id="html_4a098922ddb24751b9cb4405efc320a6" style="width: 100.0%; height: 100.0%;">NaN</div>`)[0];
+            popup_c2c327132e3443beaf914d3437e4d8c0.setContent(html_4a098922ddb24751b9cb4405efc320a6);
+        
+
+        poly_line_132188f6e38c47abbd27b4a0d76c559f.bindPopup(popup_c2c327132e3443beaf914d3437e4d8c0)
+        ;
+
+        
+    
+    
+            var poly_line_0235fc6fe2f34671ad1a9b965cf86135 = L.polyline(
+                [[41.3824, 2.1739282], [41.3824215, 2.1738874], [41.3823894, 2.1737671]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_d7c22cc659f94da6a069637b5188182e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39742b5d97c644f092221a059084dacf = $(`<div id="html_39742b5d97c644f092221a059084dacf" style="width: 100.0%; height: 100.0%;">NaN</div>`)[0];
+            popup_d7c22cc659f94da6a069637b5188182e.setContent(html_39742b5d97c644f092221a059084dacf);
+        
+
+        poly_line_0235fc6fe2f34671ad1a9b965cf86135.bindPopup(popup_d7c22cc659f94da6a069637b5188182e)
+        ;
+
+        
+    
+    
+            var poly_line_3913eda30e4242f18e939077d80d1341 = L.polyline(
+                [[41.3824, 2.1739282], [41.3825355, 2.174045], [41.3826008, 2.1740746]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_89a80ef8e8a6482ba12c9eec70f95432 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c3a6f02512946ae99d6d05dcafc7c47 = $(`<div id="html_4c3a6f02512946ae99d6d05dcafc7c47" style="width: 100.0%; height: 100.0%;">NaN</div>`)[0];
+            popup_89a80ef8e8a6482ba12c9eec70f95432.setContent(html_4c3a6f02512946ae99d6d05dcafc7c47);
+        
+
+        poly_line_3913eda30e4242f18e939077d80d1341.bindPopup(popup_89a80ef8e8a6482ba12c9eec70f95432)
+        ;
+
+        
+    
+    
+            var poly_line_99741ccb41a9466cac74d1d76cc0792e = L.polyline(
+                [[41.3826008, 2.1740746], [41.3826965, 2.1740467], [41.3828551, 2.1739989], [41.3831463, 2.1739547], [41.3832821, 2.1739787], [41.3835675, 2.1739741], [41.3838943, 2.1738822]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_3fdec200cfeb423f924d2fd8274022b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba606cbde62a40c395b727113bf2ce63 = $(`<div id="html_ba606cbde62a40c395b727113bf2ce63" style="width: 100.0%; height: 100.0%;">"Carrer del Pi"</div>`)[0];
+            popup_3fdec200cfeb423f924d2fd8274022b2.setContent(html_ba606cbde62a40c395b727113bf2ce63);
+        
+
+        poly_line_99741ccb41a9466cac74d1d76cc0792e.bindPopup(popup_3fdec200cfeb423f924d2fd8274022b2)
+        ;
+
+        
+    
+    
+            var poly_line_a1b5e090c30e481cb3c7e03c2f820d0f = L.polyline(
+                [[41.3826008, 2.1740746], [41.3826734, 2.1741059], [41.383178, 2.1744511]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_ddd4ba0a298640aa919b432ef958c61d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c15c755e6d1c439aa6bab0a1f8b2672a = $(`<div id="html_c15c755e6d1c439aa6bab0a1f8b2672a" style="width: 100.0%; height: 100.0%;">"Carrer de la Palla"</div>`)[0];
+            popup_ddd4ba0a298640aa919b432ef958c61d.setContent(html_c15c755e6d1c439aa6bab0a1f8b2672a);
+        
+
+        poly_line_a1b5e090c30e481cb3c7e03c2f820d0f.bindPopup(popup_ddd4ba0a298640aa919b432ef958c61d)
+        ;
+
+        
+    
+    
+            var poly_line_0a920345e3494cc9a687c4adad3eb83f = L.polyline(
+                [[41.3826008, 2.1740746], [41.3825355, 2.174045], [41.3824, 2.1739282]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_5f144c335d234402a44d315d7a1b8771 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_147395c3e4d34aa88f20eb2c87154f03 = $(`<div id="html_147395c3e4d34aa88f20eb2c87154f03" style="width: 100.0%; height: 100.0%;">NaN</div>`)[0];
+            popup_5f144c335d234402a44d315d7a1b8771.setContent(html_147395c3e4d34aa88f20eb2c87154f03);
+        
+
+        poly_line_0a920345e3494cc9a687c4adad3eb83f.bindPopup(popup_5f144c335d234402a44d315d7a1b8771)
+        ;
+
+        
+    
+    
+            var poly_line_cea88709bd204c469776d1ccb41ab0f9 = L.polyline(
+                [[41.3839605, 2.1740836], [41.3838943, 2.1738822]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_a1911163e3564886bb4dac78daf40255 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb01b4aa46ea47c2974a39e84e6246c5 = $(`<div id="html_cb01b4aa46ea47c2974a39e84e6246c5" style="width: 100.0%; height: 100.0%;">"Carrer de la Portaferrissa"</div>`)[0];
+            popup_a1911163e3564886bb4dac78daf40255.setContent(html_cb01b4aa46ea47c2974a39e84e6246c5);
+        
+
+        poly_line_cea88709bd204c469776d1ccb41ab0f9.bindPopup(popup_a1911163e3564886bb4dac78daf40255)
+        ;
+
+        
+    
+    
+            var poly_line_3c6aa7d9c842423880f7f38021c7b2bb = L.polyline(
+                [[41.381831, 2.1728817], [41.3818326, 2.1728362]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_5e4d62c1238d42a8828628c130e11b15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3772a6517ac4b17a7d9a30f3c409ee1 = $(`<div id="html_b3772a6517ac4b17a7d9a30f3c409ee1" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_5e4d62c1238d42a8828628c130e11b15.setContent(html_b3772a6517ac4b17a7d9a30f3c409ee1);
+        
+
+        poly_line_3c6aa7d9c842423880f7f38021c7b2bb.bindPopup(popup_5e4d62c1238d42a8828628c130e11b15)
+        ;
+
+        
+    
+    
+            var poly_line_feb48b2e34434a238dce6c485c0b6d26 = L.polyline(
+                [[41.381831, 2.1728817], [41.38183, 2.1729091], [41.3818308, 2.172991], [41.3818444, 2.1732801], [41.3818517, 2.173416]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_21f094a3e4c24001909c32bf6757638b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d3fa4c0d2904a69837a902fe0ef0ce8 = $(`<div id="html_8d3fa4c0d2904a69837a902fe0ef0ce8" style="width: 100.0%; height: 100.0%;">["Passatge d'Amadeu Bagu\u00e9s", "La Rambla"]</div>`)[0];
+            popup_21f094a3e4c24001909c32bf6757638b.setContent(html_8d3fa4c0d2904a69837a902fe0ef0ce8);
+        
+
+        poly_line_feb48b2e34434a238dce6c485c0b6d26.bindPopup(popup_21f094a3e4c24001909c32bf6757638b)
+        ;
+
+        
+    
+    
+            var poly_line_c3dfaa6776934ee0ab1b313fb2965c79 = L.polyline(
+                [[41.381831, 2.1728817], [41.3815303, 2.1731563], [41.3813264, 2.1733406]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_4f83d00f3c404b67878977bba859ce36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_524fd94dfdd74431a602dc1af7402cbc = $(`<div id="html_524fd94dfdd74431a602dc1af7402cbc" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_4f83d00f3c404b67878977bba859ce36.setContent(html_524fd94dfdd74431a602dc1af7402cbc);
+        
+
+        poly_line_c3dfaa6776934ee0ab1b313fb2965c79.bindPopup(popup_4f83d00f3c404b67878977bba859ce36)
+        ;
+
+        
+    
+    
+            var poly_line_f54bfa6170864f78912f55a9e9aba4cb = L.polyline(
+                [[41.3813264, 2.1733406], [41.3813067, 2.1733006]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_23885ac1b5cf4e40bfcdcd7890226602 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73bf41a1c93844148c9edb5b79017f1d = $(`<div id="html_73bf41a1c93844148c9edb5b79017f1d" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_23885ac1b5cf4e40bfcdcd7890226602.setContent(html_73bf41a1c93844148c9edb5b79017f1d);
+        
+
+        poly_line_f54bfa6170864f78912f55a9e9aba4cb.bindPopup(popup_23885ac1b5cf4e40bfcdcd7890226602)
+        ;
+
+        
+    
+    
+            var poly_line_d55498350fd541d9ac0c799f522c1eb2 = L.polyline(
+                [[41.3813264, 2.1733406], [41.381222, 2.1734313]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_f6ab20de76964fca8b3b8e7d8f39843d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d956385fe0c4a0480630d569a126e36 = $(`<div id="html_2d956385fe0c4a0480630d569a126e36" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_f6ab20de76964fca8b3b8e7d8f39843d.setContent(html_2d956385fe0c4a0480630d569a126e36);
+        
+
+        poly_line_d55498350fd541d9ac0c799f522c1eb2.bindPopup(popup_f6ab20de76964fca8b3b8e7d8f39843d)
+        ;
+
+        
+    
+    
+            var poly_line_39d763707a5b4b8fac3ac812472c2bb6 = L.polyline(
+                [[41.3813264, 2.1733406], [41.3813333, 2.1733545], [41.3813799, 2.1734644]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_666e3ae424484f9fb23f8de145970825 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae538a76ef9844ebb7ab336b7bf1f7d8 = $(`<div id="html_ae538a76ef9844ebb7ab336b7bf1f7d8" style="width: 100.0%; height: 100.0%;">["Pla\u00e7a de la Boqueria", "La Rambla"]</div>`)[0];
+            popup_666e3ae424484f9fb23f8de145970825.setContent(html_ae538a76ef9844ebb7ab336b7bf1f7d8);
+        
+
+        poly_line_39d763707a5b4b8fac3ac812472c2bb6.bindPopup(popup_666e3ae424484f9fb23f8de145970825)
+        ;
+
+        
+    
+    
+            var poly_line_4c1b9c0d81b7415f82a4a11ee35e6927 = L.polyline(
+                [[41.3813264, 2.1733406], [41.3815303, 2.1731563], [41.381831, 2.1728817]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_a461931a2c9a4cca8da3343884308f41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9e32132467d4945b33b9fe3a5c56438 = $(`<div id="html_b9e32132467d4945b33b9fe3a5c56438" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_a461931a2c9a4cca8da3343884308f41.setContent(html_b9e32132467d4945b33b9fe3a5c56438);
+        
+
+        poly_line_4c1b9c0d81b7415f82a4a11ee35e6927.bindPopup(popup_a461931a2c9a4cca8da3343884308f41)
+        ;
+
+        
+    
+    
+            var poly_line_e58c3c6de28d4d1183812779fcc42743 = L.polyline(
+                [[41.381222, 2.1734313], [41.3811995, 2.1733931]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_6866e7185011494085322c4166442b40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe784e73912744e9a02a68bc156aa536 = $(`<div id="html_fe784e73912744e9a02a68bc156aa536" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_6866e7185011494085322c4166442b40.setContent(html_fe784e73912744e9a02a68bc156aa536);
+        
+
+        poly_line_e58c3c6de28d4d1183812779fcc42743.bindPopup(popup_6866e7185011494085322c4166442b40)
+        ;
+
+        
+    
+    
+            var poly_line_dfd07c77fd2940afa1c270d71979c1c0 = L.polyline(
+                [[41.381222, 2.1734313], [41.3813264, 2.1733406]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_5d2ec4cd9b0e4592ab70edd62fb5567c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e320c2624f449e588679916e14462b2 = $(`<div id="html_7e320c2624f449e588679916e14462b2" style="width: 100.0%; height: 100.0%;">"La Rambla"</div>`)[0];
+            popup_5d2ec4cd9b0e4592ab70edd62fb5567c.setContent(html_7e320c2624f449e588679916e14462b2);
+        
+
+        poly_line_dfd07c77fd2940afa1c270d71979c1c0.bindPopup(popup_5d2ec4cd9b0e4592ab70edd62fb5567c)
+        ;
+
+        
+    
+    
+            var poly_line_7b439117bd644b47881f30ee8f130d0b = L.polyline(
+                [[41.381222, 2.1734313], [41.3812296, 2.1734442], [41.3813182, 2.1735201]],
+                {"bubblingMouseEvents": true, "color": "#8b0000", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8b0000", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d37eae78fe7b495a91c0eb9ff55f72d1);
+        
+    
+        var popup_df82fee4efde460a86834e55e766830b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a71aa004a0f04d2f9c961c0466b4527b = $(`<div id="html_a71aa004a0f04d2f9c961c0466b4527b" style="width: 100.0%; height: 100.0%;">["Pla\u00e7a de la Boqueria", "La Rambla"]</div>`)[0];
+            popup_df82fee4efde460a86834e55e766830b.setContent(html_a71aa004a0f04d2f9c961c0466b4527b);
+        
+
+        poly_line_7b439117bd644b47881f30ee8f130d0b.bindPopup(popup_df82fee4efde460a86834e55e766830b)
+        ;
+
+        
+    
+    
+            map_d37eae78fe7b495a91c0eb9ff55f72d1.fitBounds(
+                [[41.3811421, 2.1726555], [41.3839605, 2.1754591]],
+                {}
+            );
+        
+</script>
