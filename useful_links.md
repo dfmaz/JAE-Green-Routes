@@ -1,0 +1,22 @@
+-- Previous & similar works:
+  - https://www2.helsinki.fi/en/researchgroups/digital-geography-lab/green-paths
+  - https://github.com/DigitalGeographyLab/green-path-server
+  - https://github.com/hellej/quiet-paths-msc
+- Papers:
+  - https://www.sciencedirect.com/science/article/pii/S0198971516303970?via%3Dihub
+  - https://gmd.copernicus.org/articles/12/2811/2019/
+  - https://gmd.copernicus.org/articles/12/1885/2019/
+  - https://gmd.copernicus.org/articles/13/873/2020/#section4
+- Tutorials:
+  - https://diegoquintanav.github.io/folium-barcelona-EN.html 
+  - https://morioh.com/p/f30f0a215c2f
+  - https://github.com/gboeing/osmnx-examples/tree/main/notebooks
+- Python packages:
+  - https://hub.docker.com/r/gboeing/osmnx 
+  - https://geoffboeing.com/2016/11/osmnx-python-street-networks/
+  - https://osmnx.readthedocs.io/en/stable/
+- Other:
+  - http://www.bsc.es/caliope/es/pronosticos?default_model=1&default_domain=0
+  - https://github.com/jwang0306/vehicle-routing-problem
+  - https://github.com/joshuaomolegan/RunningRouteWebApp
+  - https://github.com/JasonManesis/Vehicle-Navigation-Shortest-Path
