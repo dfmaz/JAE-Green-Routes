@@ -1,4 +1,4 @@
--- Previous & similar works:
+- Previous & similar works:
   - https://www2.helsinki.fi/en/researchgroups/digital-geography-lab/green-paths
   - https://github.com/DigitalGeographyLab/green-path-server
   - https://github.com/hellej/quiet-paths-msc
